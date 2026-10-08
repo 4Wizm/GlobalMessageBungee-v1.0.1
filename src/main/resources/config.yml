@@ -1,0 +1,36 @@
+# ===========================================
+#      GlobalMessage by 4wizm v1.0.1
+# ===========================================
+
+# Placeholder disponibili:
+#   %server%   -> nome del server da cui viene inviato
+#   %player%   -> nome del giocatore che ha inviato
+#   %message%  -> il messaggio scritto
+# Supporta colori con & e HEX (#RRGGBB)
+
+# Layout del messaggio
+layout: "&c&lGLOBAL &7%player% &7[&7%server%&7]&7: %message%"
+
+# Prefisso dei messaggi di sistema
+prefix: "&c&lGLOBAL &7"
+
+# Nome del server mostrato da %server%
+# Se vuoto ("") usa automaticamente il nome del server 
+server-name: ""
+
+# Impostazioni messaggi
+messages:
+  no-permission: "&cNon hai il permesso per usare questo comando."
+  usage: "&cUso corretto: &f/global <messaggio>"
+  empty: "&cDevi scrivere un messaggio!"
+  cooldown: "&cAttendi &f%time%s &cprima di inviare un altro messaggio globale."
+
+# Cooldown in secondi (0 = disabilitato)
+cooldown: 3
+
+# Suoni (non supportati su Bungee/Waterfall)
+sound:
+  enabled: false
+  name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  volume: 1.0
+  pitch: 1.0

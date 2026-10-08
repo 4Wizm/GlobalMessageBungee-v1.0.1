@@ -1,0 +1,4 @@
+name: GlobalMessage
+version: 1.0.1
+author: 4wizm
+main: com.globalmessage.bungee.GlobalMessageBungee
